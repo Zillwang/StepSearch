@@ -1,4 +1,8 @@
-
+<div align="center">
+<p align="center">
+  <img src="./assets/model.png" width="75%" height="55%" />
+</p>
+</div>
 
 <div align="center">
 <h1>StepSearch: Igniting LLMs Search Ability via Step-Wise Proximal Policy Optimization
@@ -18,12 +22,6 @@ StepSearch is a method specifically tailored for multi-hop question answering in
 - **[2025.05.20]** Released the initial paper, model weights and dataset.
 
 #  Performance
-### Method
-<div align="center">
-<p align="center">
-  <img src="./assets/model.png" width="75%" height="55%" />
-</p>
-</div>
 
 ###  Main Results
 
