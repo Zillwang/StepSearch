@@ -19,7 +19,7 @@ StepSearch is a method specifically tailored for multi-hop question answering in
 - **State-of-the-art performance.** StepSearch outperforms standard RL baselines by *5.7%*, *9.1%*, *10.0%*, and *15.2%* absolutely on diverse multi-hop Q&A benchmarks.
 
 # News
-- **[2025.05.20]** Released the initial paper, model weights and dataset.
+- **[2025.05.20]** Released the initial paper
 
 #  Performance
 
