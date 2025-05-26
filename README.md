@@ -8,6 +8,11 @@
 <h1>StepSearch: Igniting LLMs Search Ability via Step-Wise Proximal Policy Optimization
 </h1>
 </div>
+<div align="center">
+  <a href='https://github.com/Zillwang/StepSearch'><img src='https://img.shields.io/badge/Homepage-StepSearch-6c5ce7?logo=github&logoColor=white'></a>
+  <a href='https://arxiv.org/abs/2505.15107'><img src='https://img.shields.io/badge/Paper-arXiv-d63031?logo=arxiv&logoColor=white'></a>
+  <a href='https://huggingface.co/Zill1'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-0984e3'></a>
+</div>
 
 We will release our code and weights in a few days, stay tuned!
 
