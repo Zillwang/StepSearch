@@ -14,19 +14,19 @@
   <a href='https://huggingface.co/Zill1'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-0984e3'></a>
 </div>
 
-# Introduction
+# 📌Introduction
 StepSearch is a method specifically tailored for multi-hop question answering in search-based scenarios. It models the reasoning process as a sequence of tool invocations and information retrieval steps, where each step aims to gather relevant evidence toward answering a complex question. The system is trained using reinforcement learning, particularly the Proximal Policy Optimization (PPO) algorithm with token-level and rewards, to optimize a policy that decides search tools to invoke and what queries to issue at each stage.
 
 - **Universal multi-hop search data.** We develop a novel MuSiQue-based pipeline, contributing 60k filtered sub-question search keywords that generalize across retrieval datasets.
 - **StepSearch: Step-wise RL with dual rewards.** We augment PPO with token-level rewards—information gain and redundancy penalties—for both query formulation and document retrieval.
 - **State-of-the-art performance.** StepSearch outperforms standard RL baselines by *5.7%*, *9.1%*, *10.0%*, and *15.2%* absolutely on diverse multi-hop Q&A benchmarks.
 
-# News
+# 🔥News
 - **[2025.09.10]** Released code and model weights.
 - **[2025.08.21]** Accepted by EMNLP Main 2025.
 - **[2025.05.20]** Released the initial paper.
 
-# Links
+# 🔗Links
 
 - [Installation](#installation)
 - [How to Start](#how-to-start)
@@ -38,7 +38,7 @@ StepSearch is a method specifically tailored for multi-hop question answering in
 - [Use your own dataset](#use-your-own-dataset)
 - [Use your own search engine](#use-your-own-search-engine) -->
 
-# Installation
+# 🛠Installation
 ## StepSearch Environment (fork from [Search-R1](https://github.com/PeterGriffinJin/Search-R1))
 <pre>conda create -n stepsearch python=3.10
 conda activate stepsearch
@@ -69,7 +69,7 @@ conda install -c pytorch -c nvidia faiss-gpu=1.8.0
 ## API function
 pip install uvicorn fastapi </pre>
 
-# How to Start
+# 🚗How to Start
 Train a reasoning + search LLM on MusiQue dataset with e5 as the retriever while using MusiQue documents (training) and wikipedia (testing) as the corpus.
 
 (1) Download datasets and indexing, corpus for retreiver
@@ -102,7 +102,7 @@ If you need to use online search API (serper), you could do like this:
 bash train.sh
 </pre>
 
-# Build Dataset
+# 💾Build Dataset
 ## QA dataset with Step-Wise Information
 For each piece of data, it is assembled in the following dictionary format. The reference information (List of String) for evaluating the step reward needs to be placed under the xxx field.
 <pre>solution = {
@@ -150,13 +150,54 @@ The "id" key corresponds to the passage id, while the "contents" key corresponds
 If you would like to use a local retriever as the search engine, you can index your own corpus by:
 <pre>bash search_r1/search/build_index.sh</pre>
 
+# 💡Performance
 
-#  Acknowledgements
+###  Main Results
+
+<div align="center">
+    <img src="./assets/main_results.png" width="69%" height="auto" />
+</div>
+
+###  Different RL Comparison 
+
+<div align="center">
+    <img src="./assets/RL_comparision_table.png" width="50%" height="auto" />
+</div>
+<div align="center">
+    <img src="./assets/RL-compare-answer-f1.png" width="40%" height="auto" />
+    <img src="./assets/RL-compare-response-len.png" width="40%" height="auto" />
+</div>
+
+###  Ablation Study
+
+<div align="center">
+    <img src="./assets/ablation_table.png" width="50%" height="auto" />
+</div>
+<div align="center">
+    <img src="./assets/AB-ss-answer-f1.png" width="40%" height="auto" />
+    <img src="./assets/AB-ss-response-len.png" width="40%" height="auto" />
+    <img src="./assets/AB-skr.png" width="80%" height="auto" />
+</div>
+
+###  Case Study
+
+<div align="center">
+    <img src="./assets/case_study_1.png" width="70%" height="auto" />
+    <img src="./assets/case_study_2.png" width="70%" height="auto" />
+    <img src="./assets/case_study_3.png" width="70%" height="auto" />
+    <img src="./assets/case_study_4.png" width="70%" height="auto" />
+    <img src="./assets/case_study_5.png" width="70%" height="auto" />
+
+
+</div>
+
+
+# 🙏Acknowledgements
 
 This work is implemented based on [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [veRL](https://github.com/volcengine/verl), and [RAGEN](https://github.com/ZihanWang314/RAGEN/tree/main). We sincerely thank the authors of these projects for their valuable contributions to the open-source community.
 
 
-# Citation
+# 🚩Citation
 
 If this work is helpful, please kindly cite as:
 
