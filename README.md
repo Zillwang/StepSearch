@@ -14,6 +14,12 @@
   <a href='https://huggingface.co/Zill1'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-0984e3'></a>
 </div>
 
+<p align="center">
+  <i><b>Xuhui Zheng, Kang An, Ziliang Wang</b></i><br>
+  <i><b>Yuhang Wang, Yichao Wu</b></i><br>
+  <i>Sense Time <img src="./public/st_logo_white.svg" width="28px">, Nanjing University<img src="./public/NJU_logo.jpg" width="12px" >, Shenzhen University<img src="./public/szu_logo.png" width="14px"></i>
+</p>
+
 # 📌Introduction
 StepSearch is a method specifically tailored for multi-hop question answering in search-based scenarios. It models the reasoning process as a sequence of tool invocations and information retrieval steps, where each step aims to gather relevant evidence toward answering a complex question. The system is trained using reinforcement learning, particularly the Proximal Policy Optimization (PPO) algorithm with token-level and rewards, to optimize a policy that decides search tools to invoke and what queries to issue at each stage.
 
