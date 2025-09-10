@@ -14,8 +14,6 @@
   <a href='https://huggingface.co/Zill1'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-0984e3'></a>
 </div>
 
-We will release our code and weights in a few days, stay tuned!
-
 # Introduction
 StepSearch is a method specifically tailored for multi-hop question answering in search-based scenarios. It models the reasoning process as a sequence of tool invocations and information retrieval steps, where each step aims to gather relevant evidence toward answering a complex question. The system is trained using reinforcement learning, particularly the Proximal Policy Optimization (PPO) algorithm with token-level and rewards, to optimize a policy that decides search tools to invoke and what queries to issue at each stage.
 
@@ -24,7 +22,7 @@ StepSearch is a method specifically tailored for multi-hop question answering in
 - **State-of-the-art performance.** StepSearch outperforms standard RL baselines by *5.7%*, *9.1%*, *10.0%*, and *15.2%* absolutely on diverse multi-hop Q&A benchmarks.
 
 # News
-- **[2025.09.xx]** Released code and model weights.
+- **[2025.09.10]** Released code and model weights.
 - **[2025.08.21]** Accepted by EMNLP Main 2025.
 - **[2025.05.20]** Released the initial paper.
 
