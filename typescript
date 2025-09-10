@@ -1,31 +1,0 @@
-Script started on 2025-05-14 03:32:59+00:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="145" LINES="15"]
-[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1root@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1# cd scripts/
-[?2004l[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# pyth    sh e    sh eval  .sh
-[?2004lEvaluation Results:
-exact_match_accuracy: 0.2860
-f1_score: 0.3925
-[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# sh eval.sh
-[?2004lEvaluation Results:
-exact_match_accuracy: 0.2582
-f1_score: 0.3709
-[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# sh eval.sh
-[?2004lEvaluation Results:
-exact_match_accuracy: 0.2839
-f1_score: 0.3977
-[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# sh eval.sh
-[?2004lEvaluation Results:
-exact_match_accuracy: 0.2839
-f1_score: 0.3977
-[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# sh eval.sh
-[?2004lEvaluation Results:
-exact_match_accuracy: 0.2847
-f1_score: 0.4006
-[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# sh eval.sh
-[?2004lEvaluation Results:
-exact_match_accuracy: 0.2687
-f1_score: 0.3864
-[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# sh eval.sh
-[?2004lEvaluation Results:
-exact_match_accuracy: 0.2795
-f1_score: 0.3885
-[?2004h]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# [K]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# [K]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# [K]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# [K]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# [K]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# [K]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# [K]0;root@pt-f24dbe1a832940fb84517a88807715c8-master-0: /mnt/GeneralModel/zhengxuhui/Search-R1/scriptsroot@pt-f24dbe1a832940fb84517a88807715c8-master-0:/mnt/GeneralModel/zhengxuhui/Search-R1/scripts# [?2004l
